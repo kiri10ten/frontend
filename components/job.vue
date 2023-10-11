@@ -58,7 +58,7 @@ async function deleteArchive(id) {
             
            </div>
             <div class="flex gap-6 
-            justify-end">
+            ">
                 <NuxtLink v-bind:to="'/browse/' + archive.id" class="text-gray-400 bg-transparent text-sm p-2 max-sm:text-xs max-sm:p-0 hover:text-gray-200">
                     Details
                 </NuxtLink>
