@@ -42,7 +42,7 @@ async function deleteArchive(id) {
             <p class="text-gray-400 text-sm pt-2">{{ archive.subject_title }}</p>
         </div>
 
-        <div class="flex flex-row  justify-between pl-6 pt-3 pb-7 pr-6 gap-5">
+        <div class="flex flex-row max-sm:flex-cols-2 justify-between pl-6 pt-3 pb-7 pr-6 gap-5">
            
             
                 <div class="pt-2">
@@ -57,7 +57,8 @@ async function deleteArchive(id) {
           
             
            </div>
-            <div class="flex gap-6 justify-end">
+            <div class="flex gap-6 
+            justify-end">
                 <NuxtLink v-bind:to="'/browse/' + archive.id" class="text-gray-400 bg-transparent text-sm p-2 hover:text-gray-200">
                     Details
                 </NuxtLink>
