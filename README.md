@@ -4,7 +4,6 @@
 
 This website is designed to help Univerity study Discord server members to access lecture notes and materials in one convenient location. It aims to simplify the process of finding and viewing archived lecture content.
 
-## Todolist
 
 # To-Do List
 
