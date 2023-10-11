@@ -36,5 +36,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any questions or support, feel free to contact us at [wait.com].
+For any questions or support, feel free to contact us at[kirubaselviten@gmail.com].
 
