@@ -66,7 +66,7 @@ async function deleteArchive(id) {
             </div>
         </div>
        
-    <div>
+    <div class=" pl-6 flex gap-5">
                     <NuxtLink v-bind:to="'/editjob/' + archive.id" v-if="my" class="bg-green-200  text-gray-800 max-sm:text-xs rounded-sm  max-sm:p-2 text-sm  p-2">
                         Edit
                     </NuxtLink>
