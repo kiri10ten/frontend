@@ -64,16 +64,22 @@ async function deleteArchive(id) {
                 </NuxtLink>
                 
             </div>
-            <div>
+        </div>
+       
+    <div>
                     <NuxtLink v-bind:to="'/editjob/' + archive.id" v-if="my" class="bg-green-200  text-gray-800 max-sm:text-xs rounded-sm  max-sm:p-2 text-sm  p-2">
                         Edit
                     </NuxtLink>
                     <a @click="deleteArchive(archive.id)" v-if="my" class=" bg-red-200 text-gray-800 rounded-sm  max-sm:text-xs text-sm max-sm:p-2 p-2">
                         Delete
                     </a>
-                    <div>
-        </div>
-       
+                </div>
+
+
+
+
+
+
     </div>
     
 </template>
