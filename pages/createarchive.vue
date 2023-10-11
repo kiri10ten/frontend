@@ -88,7 +88,7 @@ async function submitForm() {
 
             <div class="flex flex-col ">
                 <label class="">Title</label>
-                <input v-model="title" type="text" class=" border-2 border-white w-80 mt-2 p-2 rounded-md bg-black">
+                <input v-model="title" type="text" class="w-full border-2 border-white  mt-2 p-2 rounded-md bg-black">
             </div>
 
             <div>
