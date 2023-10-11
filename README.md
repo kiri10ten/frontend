@@ -1,5 +1,5 @@
 # Lecture Archive Website
-
+[![smartmockups-lnlgomxt.jpg](https://i.postimg.cc/j2cJ80vj/smartmockups-lnlgomxt.jpg)](https://postimg.cc/8fF55Y28)
 ## Introduction
 
 This website is designed to help Univerity study Discord server members to access lecture notes and materials in one convenient location. It aims to simplify the process of finding and viewing archived lecture content.
@@ -39,7 +39,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 For any questions or support, feel free to contact us at [your-email@example.com].
 
-## Screenshots
-
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
