@@ -59,13 +59,13 @@ async function deleteArchive(id) {
            </div>
             <div class="flex gap-6 
             justify-end">
-                <NuxtLink v-bind:to="'/browse/' + archive.id" class="text-gray-400 bg-transparent text-sm p-2 max-sm:text-xs max-sm:p-1 hover:text-gray-200">
+                <NuxtLink v-bind:to="'/browse/' + archive.id" class="text-gray-400 bg-transparent text-sm p-2 max-sm:text-xs max-sm:p-0 hover:text-gray-200">
                     Details
                 </NuxtLink>
-                <NuxtLink v-bind:to="'/editjob/' + archive.id" v-if="my" class="bg-green-200  text-gray-800 max-sm:text-xs rounded-sm  max-sm:p-1 text-sm  p-2">
+                <NuxtLink v-bind:to="'/editjob/' + archive.id" v-if="my" class="bg-green-200  text-gray-800 max-sm:text-xs rounded-sm  max-sm:p-0 text-sm  p-2">
                     Edit
                 </NuxtLink>
-                <a @click="deleteArchive(archive.id)" v-if="my" class=" bg-red-200 text-gray-800 rounded-sm  max-sm:text-xs text-sm max-sm:p-1 p-2">
+                <a @click="deleteArchive(archive.id)" v-if="my" class=" bg-red-200 text-gray-800 rounded-sm  max-sm:text-xs text-sm max-sm:p-0 p-2">
                     Delete
                 </a>
             </div>
