@@ -1,42 +1,45 @@
-# Nuxt 3 Minimal Starter
+# Lecture Archive Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## Introduction
 
-## Setup
+This website is designed to help Univerity study Discord server members to access lecture notes and materials in one convenient location. It aims to simplify the process of finding and viewing archived lecture content.
 
-Make sure to install the dependencies:
+## Todolist
 
-```bash
-# yarn
-yarn install
+# To-Do List
 
-# npm
-npm install
+- [x] CRUD Archive ...Create, Read, Update,Delete
+- [ ] more to come
 
-# pnpm
-pnpm install
-```
 
-## Development Server
 
-Start the development server on http://localhost:3000
+## Contributions
 
-```bash
-npm run dev
-```
+We welcome contributions to improve this project. If you'd like to contribute, please follow these steps:
 
-## Production
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Commit your changes and push to your fork.
+4. Create a pull request with a clear description of your contribution.
 
-Build the application for production:
+## Installation
 
-```bash
-npm run build
-```
+To run this project locally, follow these steps:
 
-Locally preview production build:
+1. Clone this repository to your local machine.
+2. Install the required dependencies using `npm install`.
+3. Start the server with `npm run dev`.
+4. Access the website at `http://localhost:3000`.
 
-```bash
-npm run preview
-```
+## License
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or support, feel free to contact us at [your-email@example.com].
+
+## Screenshots
+
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
